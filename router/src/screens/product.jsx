@@ -37,6 +37,7 @@ function Product() {
 
     return(
     <>
+    <h1 className="center"> All Products</h1>
     <div className="main-box">
     {data ? data.map((item)=>{
         return(

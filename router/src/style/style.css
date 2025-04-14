@@ -41,3 +41,39 @@ button{
     font-weight: bold;
 
 }
+.main-heaider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singleproduct{
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 80%;
+    border: 2px solid blue;
+
+}
+.center{
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    
+}
+.singleproduct>img{
+    padding: 30px 40px 10px 40px;
+    width: 200px;
+
+}
+.singleproduct>h1{
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+
+}
+.singleproduct>h3{
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+}
